@@ -1,0 +1,63 @@
+@charset "UTF-8"; @import url(fonts.css);
+
+:root{
+    --azul-profundo:#1E90FF;
+    --azul-profundo-tom2:#41a0ff;
+    --azul-profundo-tom3:#80bfff;
+    --verder-mata:#228B22;
+    --fonte-titulo:"Poetsen One", sans-serif;
+    --font-nome-autor: "Comic Relief", system-ui;
+    --fonte-texto-poema: "Madimi One", sans-serif;
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .caixas-com-imagem > p{
+        width: 400px;
+        line-height:1.8em ;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1400px){
+    header{
+        padding-top: 50px;
+        padding-bottom:50px ;
+    }
+
+    header > h1{
+        font-size: 4em;
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    }
+
+    header > p{
+        font-size: 1.5em;
+        margin-top: -7px;
+    }
+
+    .caixas-com-imagem > p{
+        width: 700px;
+        font-size: 2.3em;
+        line-height:1.8em ;
+    }
+
+    .caixas-com-imagem#img001{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .caixas-com-imagem#img002{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .caixas-normal{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .caixas-normal > p{
+        width: 700px;
+        font-size: 2.3em;
+        line-height:1.8em ;
+    }
+    
+}
