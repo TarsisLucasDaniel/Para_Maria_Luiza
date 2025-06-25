@@ -12,8 +12,12 @@
 
 @media screen and (min-width:481px) and (max-width:768px){
     .caixas-com-imagem > p{
-        width:300px;
+        width:250px;
         line-height:1.8em ;
+    }
+
+    .caixas-normal > p{
+        width: 250px;
     }
 }
 
